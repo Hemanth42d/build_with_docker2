@@ -12,7 +12,7 @@ The app is fully containerized using **Docker** and deployed on an **EC2 instanc
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Node.js**
 - **Express.js**

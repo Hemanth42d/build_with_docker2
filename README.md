@@ -26,7 +26,7 @@ The app is fully containerized using **Docker** and deployed on an **EC2 instanc
 
 ## How to Deploy on AWS
 
-### 1. 🐳 Build and Push Docker Image to AWS ECR
+### 🐳 Build and Push Docker Image to AWS ECR
 
 ```bash
 # Authenticate Docker to your ECR

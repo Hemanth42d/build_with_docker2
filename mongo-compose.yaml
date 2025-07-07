@@ -1,4 +1,10 @@
 services:
+  my-app:
+    image: 763671683296.dkr.ecr.ap-south-1.amazonaws.com/docker-volumes-practice:1.0
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
   mongodb:
     image: mongo
     ports:

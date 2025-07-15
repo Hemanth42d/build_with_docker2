@@ -61,10 +61,6 @@ sudo apt install awscli -y
 aws configure
 
 
-# Optional: Install AWS CLI if not already
-sudo apt install awscli -y
-aws configure
-
 docker-compose -f mongo-compose.yaml up -d
 docker-compose -f mongo-compose.yaml down -v
 

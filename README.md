@@ -50,16 +50,16 @@ sudo systemctl enable docker
 sudo usermod -aG docker ubuntu
 newgrp docker
 
+# Intall using snap
+sudo apt update
+sudo apt install snapd
+sudo snap install docker
+
+
 # Optional: Install AWS CLI if not already
 sudo apt install awscli -y
 aws configure
 
-sudo apt update
-sudo apt install docker.io -y
-sudo systemctl start docker
-sudo systemctl enable docker
-sudo usermod -aG docker ubuntu
-newgrp docker
 
 # Optional: Install AWS CLI if not already
 sudo apt install awscli -y
